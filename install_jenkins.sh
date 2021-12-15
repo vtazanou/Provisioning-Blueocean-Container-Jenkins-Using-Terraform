@@ -17,9 +17,9 @@ amazon-linux-extras install epel
 yum update -y
 yum install ansible -y
 yum install nginx -y
-yum install -y python3 pip3 
+yum install python-pip -y  
 yum install awscli 
-pip install boto3 -y 
+yum install boto -y 
 cd /home 
 touch hug.yml 
 touch nat.yml 
