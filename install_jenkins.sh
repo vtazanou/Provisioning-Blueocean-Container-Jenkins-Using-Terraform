@@ -20,6 +20,9 @@ yum install nginx -y
 yum install -y python3 pip3 
 yum install awscli 
 pip install boto3 -y 
+cd /home 
+touch hug.yml 
+touch nat.yml 
 
 
 echo "Install Docker engine"
