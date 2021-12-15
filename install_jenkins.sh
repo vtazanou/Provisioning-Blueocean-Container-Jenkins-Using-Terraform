@@ -13,6 +13,15 @@ yum install -y maven
 echo "Install git"
 yum install -y git
 
+amazon-linux-extras install epel
+yum update -y
+yum install ansible -y
+yum install nginx -y
+yum install -y python3 pip3 
+yum install awscli 
+pip install boto3 -y 
+
+
 echo "Install Docker engine"
 yum update -y
 yum install docker -y
