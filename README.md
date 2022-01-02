@@ -1,7 +1,7 @@
 # terraform-for-advanced-class-
-This is a project where you will be able to provision a jenkins EC2 server using terraform.  
-You will be able to run scripts using terraform that will install jenkins EC2 server, install Apache Maven, Install Docker.io, Install git and also the Kubectl. 
-You will use the blue ocen container method to install jenkins. 
+This is a project demo you w in which jenkins CI server is provisioned using terraform.  
+Scripts are run using terraform and used to provision an EC2 server, install Apache Maven, Install Docker.io, Install git, install blueocean container jenkins and also the Kubectl commandline interphase. 
+Blue ocen container method is used to install jenkins. 
 
 Thank 
 
