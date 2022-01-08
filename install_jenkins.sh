@@ -24,6 +24,12 @@ cd /home
 touch hug.yml 
 touch nat.yml 
 
+echo " Install Terraform"
+sudo yum install update -y 
+sudo wget https://releases.hashicorp.com/terraform/1.1.2/terraform_1.1.2_linux_amd64.zip 
+sudo unzip terraform_1.1.2_linux_amd64.zip
+sudo mv terraform /usr/bin/
+terraform --version
 
 echo "Install Docker engine"
 yum update -y
