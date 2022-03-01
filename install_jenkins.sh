@@ -1,11 +1,10 @@
-
-
 #!/bin/bash
 sudo yum -y update
 
 echo "Install Java JDK 8"
 yum remove -y java
-yum install -y java-1.8.0-openjdk
+#yum install -y java-1.8.0-openjdk
+sudo yum install java-11-openjdk 
 
 echo "Install Maven"
 yum install -y maven 
@@ -65,6 +64,5 @@ sudo systemctl enable jenkins
 sudo systemctl status jenkins
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war
-java -jar jenkins.war
-
+java -jar jenkins.war\
 
