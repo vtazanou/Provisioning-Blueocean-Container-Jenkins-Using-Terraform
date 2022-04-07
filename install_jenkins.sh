@@ -48,7 +48,7 @@ docker run \
   -e AWS_DEFAULT_REGION=us-east-2 \
   -e CRON_SCHEDULE="* 4 * * *" \
   -e BACKUP_NAME=jenkins-backup \
-  -v jenkins-data:/var/jenkins_home:/data:ro \
+  -v jenkins-data:/var/jenkins_home \
   peterrus/s3-cron-backup
 
 echo "Install Jenkins"
