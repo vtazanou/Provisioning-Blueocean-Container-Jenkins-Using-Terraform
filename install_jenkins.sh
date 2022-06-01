@@ -40,6 +40,9 @@ systemctl status docker
 #sudo service docker start
 sudo chkconfig docker on
 
+echo " install Alpine"
+
+
 echo "Install Jenkins"
 docker run \
   -u root \
